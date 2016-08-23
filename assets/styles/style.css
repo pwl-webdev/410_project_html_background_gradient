@@ -55,30 +55,31 @@ body, html{
 	margin: 0 auto;
 	width: 1440px;
 	height: 100%;
-	background-color: yellow;
+	/*background-color: yellow;*/
 	position: relative;
 }
 .hero{
 	position: relative;
-	height: 538px;
-	background-color: orange;
-}
-aside ul{
-
+	height: 695px;
+	/*background-color: orange;*/
+	background-image: url("../images/your_verse_hero.jpg");
+	background-position: left bottom;
 }
 aside ul li{
 	width: 360px;
 	height: 200px;
-	background-color: red;
+	/*background-color: red;*/
 	float: left;
 }
 .hero ul{
 	position: absolute;
-	top: 15px;
-	left: 247px;
+	top: 18px;
+	left: 230px;
 	margin: 0 auto;
+	box-sizing: border-box;
+	border-radius: 10px;
 	background: url("../images/globalheader.png") repeat-x;
-	border-radius: 4px;
+	/*border-radius: 4px;*/
 }
 .hero ul li{
 	width: 105px;
@@ -86,9 +87,8 @@ aside ul li{
 	display: inline-block;
 }
 
-
 .hero li {
-	padding-top: 2px;	
+	/*padding-top: 2px;*/
 	background-image:url("../images/globalnav_text.svg");
 	box-sizing: border-box;
 	border-right: 1px solid rgb(70,70,70);
@@ -110,5 +110,112 @@ aside ul li{
 	background-position: 1px 7px;
 	background-size: 100px 20px;
 	border: none;
-	border-right-radius: 4px;
+}
+.hero .hero_link{
+	width: 100%;
+	position: absolute;
+	top: 180px;
+	padding: 50px 0;
+}
+.header1{
+	display: block;
+	margin: 0 auto 10px auto;
+	width: 980px;
+	height: 90px;
+	background: url("../images/your_verse_title_small.png");
+	background-repeat: no-repeat;	
+	background-size: 980px 104px;
+}
+.header2{
+	display: block;
+	padding: 0;
+	margin: 10px auto;
+	width: 980px;
+	height: 82px;
+	background: url("../images/your_verse_subhead_small.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header3{
+		display: block;
+	padding: 0;
+	margin: 20px auto;
+	width: 980px;
+	height: 32px;
+	background: url("../images/cta_your_verse_27pt.png");
+	background-size: 980px 64px;
+	background-repeat: no-repeat;
+}
+.header3:hover{
+	background: url("../images/cta_your_verse_27pt.png");
+	background-size: 980px 64px;
+	background-position: 50% -32px;
+	background-repeat: no-repeat;
+}
+#promo1{
+	background: url("../images/promo_iphone5s.jpg");
+	background-position: 0 2px;
+	background-size: 358px 198px;
+	background-repeat: no-repeat;
+}
+#promo2{
+	background: url("../images/promo_iphone5c.jpg");
+	background-position: 0 2px;
+	background-size: 358px 198px;
+	background-repeat: no-repeat;
+}
+#promo3{
+	background: url("../images/promo_30_years.jpg");
+	background-position: 0 2px;
+	background-size: 358px 198px;
+	background-repeat: no-repeat;
+}
+#promo4{
+	background: url("../images/promo_supplier_responsibility.jpg");
+	background-position: 0 2px;
+	background-size: 360px 198px;
+	background-repeat: no-repeat;
+}
+footer{
+	width: 980px;
+	height: 54px;
+	padding: 10px 0 26px 0;
+	margin: 0 auto;
+	/*background-color: orange;*/
+	display: block;
+	clear: both;
+}
+footer p{
+	float: left;
+	color: rgb(110,110,110);
+	font-family: "Nimbus Sans L";
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 12px;
+	padding-top: 15px;
+}
+footer p a{
+	text-decoration: none;
+	text-decoration-color: rgb(0,136,204);
+	color:rgb(0,136,204);
+}
+footer p a:hover{
+	text-decoration: underline;
+}
+footer ul a li{
+	float: right;
+	font-family: "Nimbus Sans L";
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 12px;
+	margin-top: 15px;
+	color:rgb(0,136,204);
+	padding: 0 6px;
+	border-right: 1px solid rgb(204,204,204);
+}
+footer ul a li#last{
+	border: none;
+}
+footer ul a:hover li{
+	text-decoration: underline;
 }
